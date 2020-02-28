@@ -1,0 +1,3 @@
+## Confure your terminal to run this command 
+
+tmux new -s $(whoami) || tmux a -t $(whoami) 
